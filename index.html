@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+  box-sizing: border-box;
+}
+
+
+
+body {
+background-image: linear-gradient(rgb(89, 128, 245), rgb(241, 150, 2));
+height:1000px;
+
+}
+
+
+
+
+
+.row{
+    display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+
+}
+
+.column {
+  flex: 25%;
+  flex-wrap: wrap;
+}
+
+img{
+  filter: grayscale(60%);
+}
+
+.column img {
+  margin-top: 18px;
+  vertical-align: left;
+}
+
+.pic1 {
+
+    transform: skewY(-20deg);
+
+  width: 250px;
+  
+
+}
+
+.pic2 {
+
+    transform: skewY(20deg);
+  width: 250px;
+}
+
+.pic3{
+  transform: skewY(-20deg);
+  width: 250px;
+}
+
+img:hover{
+
+  width:300px;
+  height: 300px;
+filter: grayscale(0%);
+}
+.pic4{
+    transform: skewY(20deg);
+    width: 250px;
+
+}
+
+    </style>
+</head>
+<body>
+       <div class="row">
+        <div class="column">
+
+         <div class="pic1"><img src="sunset1.jpeg" ></div>
+         <div class="pic1"><img src="sun2.jpeg"></div>
+         <div class="pic1"><img src="sun4.jpeg" ></div> 
+         <div class="pic1"><img src="sun3.jpeg" ></div> 
+
+         </div>
+        
+         <div class="column">
+          
+         <div class="pic2"><img src="downloads(11).jpeg" ></div>
+         <div class="pic2"><img src="download (1).jpeg"></div>
+         <div class="pic2"><img src="download (2).jpeg" ></div> 
+         <div class="pic4"><img src="download (3).jpeg" ></div> 
+
+
+         
+        </div>
+
+
+
+        <div class="column">
+          <div class="pic3"><img src="download (4).jpeg" ></div> 
+          <div class="pic3"><img src="download (5).jpeg" ></div> 
+          <div class="pic3"><img src="download (6).jpeg" ></div> 
+          <div class="pic3"><img src="download (7).jpeg" ></div> 
+
+          </div>
+          <div class="column">
+         <div class="pic4"><img src="download (8).jpeg" ></div> 
+         <div class="pic4"><img src="download (9).jpeg" ></div> 
+         <div class="pic4"><img src="downloads(10).jpeg" ></div> 
+         <div class="pic4"><img src="downloads(12).jpeg" ></div> 
+
+
+        </div>
+      </div>
+
+
+
+
+</body>
+</html>
